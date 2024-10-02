@@ -10,7 +10,6 @@ int main()
 		cout << "s = "; cin >> s;
 	    cout << "t = "; cin >> t;
 
-		cout << h(s, t) << endl;
 	
 		double c = pow(h(s, t), 4) + h(1, s * s + t * t) / (1 + pow(h(s * t, 1), 2));
 	cout << "c = " << c << endl;
